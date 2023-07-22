@@ -98,7 +98,7 @@
       "extract-lighting-values-from-blockstates": false
     },
     "model-building": {
-      "thread-count": 6
+      "thread-count": 4
     }
   },
   "gui": {

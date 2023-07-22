@@ -282,7 +282,7 @@
     },
     "uraniumGeneration": {
       "comment": "Generate Uranium Ore",
-      "value": false
+      "value": true
     }
   },
   "ironOre": {

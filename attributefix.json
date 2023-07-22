@@ -1,5 +1,16 @@
 {
   "attributes": {
+    "playerex:ranged_crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -9,17 +20,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "additionalentityattributes:water_visibility": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "arcanus:mana_regen": {
@@ -44,6 +44,347 @@
         "value": 2048
       }
     },
+    "spell_power:critical_chance": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "playerex:melee_crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "wizardex:spell_power_all": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
+    "porting_lib:step_height_addition": {
+      "enabled": false,
+      "min": {
+        "default": -512,
+        "value": -512
+      },
+      "max": {
+        "default": 512,
+        "value": 512
+      }
+    },
+    "playerex:heal_amplification": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "minecraft:generic.luck": {
+      "enabled": true,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "wizardex:spell_power_healing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
+    "tiered:generic.range_attack_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "creeperoverhaul:reach_distance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "playerex:lightning_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "arcanus:burnout_regen": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "porting_lib:entity_gravity": {
+      "enabled": false,
+      "min": {
+        "default": -8,
+        "value": -8
+      },
+      "max": {
+        "default": 8,
+        "value": 8
+      }
+    },
+    "spell_power:critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 100,
+        "value": 100
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "additionalentityattributes:lava_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "playerex:luckiness": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
+    "playerex:strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
+    "spell_power:frost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "stepheightentityattribute:stepheight": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "arcanus:mana_lock": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 20
+      }
+    },
+    "playerex:ranged_crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "wizardex:spell_power_frost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
+    "tiered:generic.crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "wizardex:spell_power_lightning": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
+    "playerex:lifesteal": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "minecraft:zombie.spawn_reinforcements": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "minecraft:generic.attack_knockback": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 1000000
+      }
+    },
+    "minecraft:generic.armor_toughness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 1000000
+      }
+    },
+    "additionalentityattributes:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "wizardex:crit_chance_factor": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "additionalentityattributes:water_visibility": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "reach-entity-attributes:reach": {
       "enabled": false,
       "min": {
@@ -55,15 +396,26 @@
         "value": 1024
       }
     },
-    "spell_power:critical_chance": {
+    "playerex:poison_resistance": {
       "enabled": false,
       "min": {
-        "default": 100,
-        "value": 100
+        "default": -1,
+        "value": -1
       },
       "max": {
-        "default": 1000,
-        "value": 1000
+        "default": 1,
+        "value": 1
+      }
+    },
+    "playerex:evasion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "additionalentityattributes:water_speed": {
@@ -99,6 +451,17 @@
         "value": 1024
       }
     },
+    "playerex:intelligence": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "minecraft:generic.attack_speed": {
       "enabled": true,
       "min": {
@@ -121,26 +484,26 @@
         "value": 1000000
       }
     },
-    "porting_lib:step_height_addition": {
+    "playerex:breaking_speed": {
       "enabled": false,
       "min": {
-        "default": -512,
-        "value": -512
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 512,
-        "value": 512
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
-    "minecraft:generic.luck": {
-      "enabled": true,
+    "wizardex:crit_damage_factor": {
+      "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
     "tiered:generic.durable": {
@@ -187,33 +550,22 @@
         "value": 1000000
       }
     },
+    "playerex:level": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "additionalentityattributes:critical_bonus_damage": {
       "enabled": false,
       "min": {
         "default": -1,
         "value": -1
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
-      }
-    },
-    "tiered:generic.range_attack_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
-    "creeperoverhaul:reach_distance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
       },
       "max": {
         "default": 1024,
@@ -242,6 +594,17 @@
         "value": 1024
       }
     },
+    "playerex:health_regeneration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
+      }
+    },
     "spell_power:lightning": {
       "enabled": false,
       "min": {
@@ -251,17 +614,6 @@
       "max": {
         "default": 2048,
         "value": 2048
-      }
-    },
-    "arcanus:burnout_regen": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
       }
     },
     "minecraft:generic.flying_speed": {
@@ -275,17 +627,6 @@
         "value": 1024
       }
     },
-    "porting_lib:entity_gravity": {
-      "enabled": false,
-      "min": {
-        "default": -8,
-        "value": -8
-      },
-      "max": {
-        "default": 8,
-        "value": 8
-      }
-    },
     "spell_power:soul": {
       "enabled": false,
       "min": {
@@ -297,26 +638,26 @@
         "value": 2048
       }
     },
-    "spell_power:critical_damage": {
+    "playerex:freeze_resistance": {
       "enabled": false,
       "min": {
-        "default": 100,
-        "value": 100
+        "default": -1,
+        "value": -1
       },
       "max": {
-        "default": 1000,
-        "value": 1000
+        "default": 1,
+        "value": 1
       }
     },
-    "additionalentityattributes:lava_visibility": {
+    "playerex:wither_resistance": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -1,
+        "value": -1
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.movement_speed": {
@@ -330,26 +671,15 @@
         "value": 1024
       }
     },
-    "spell_power:frost": {
+    "playerex:dexterity": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
-    "stepheightentityattribute:stepheight": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "minecraft:generic.max_health": {
@@ -363,17 +693,6 @@
         "value": 1000000
       }
     },
-    "arcanus:mana_lock": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 20,
-        "value": 20
-      }
-    },
     "additionalentityattributes:lava_speed": {
       "enabled": false,
       "min": {
@@ -385,22 +704,22 @@
         "value": 1
       }
     },
-    "tiered:generic.crit_chance": {
+    "wizardex:spell_power_fire": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 1,
-        "value": 1
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
-    "minecraft:zombie.spawn_reinforcements": {
-      "enabled": true,
+    "playerex:fire_resistance": {
+      "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -1,
+        "value": -1
       },
       "max": {
         "default": 1,
@@ -416,17 +735,6 @@
       "max": {
         "default": 2,
         "value": 2
-      }
-    },
-    "minecraft:generic.attack_knockback": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 5,
-        "value": 1000000
       }
     },
     "spell_power:healing": {
@@ -451,37 +759,26 @@
         "value": 1
       }
     },
-    "minecraft:generic.armor_toughness": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 20,
-        "value": 1000000
-      }
-    },
-    "additionalentityattributes:dig_speed": {
+    "playerex:constitution": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 2048,
-        "value": 2048
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
-    "reach-entity-attributes:attack_range": {
+    "wizardex:spell_power_arcane": {
       "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": 0,
+        "value": 0
       },
       "max": {
-        "default": 1024,
-        "value": 1024
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "tiered:generic.dig_speed": {
@@ -493,6 +790,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "playerex:melee_crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     }
   }
