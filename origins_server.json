@@ -13,7 +13,7 @@
     "grounded_origins:beach_crab": {
       "enabled": true,
       "grounded_origins:beach_crab/home": true,
-      "grounded_origins:beach_crab/rave": true,
+      "grounded_origins:beach_crab/rave": false,
       "grounded_origins:beach_crab/krusty": true,
       "grounded_origins:beach_crab/legs_n_chelipeds": true,
       "grounded_origins:beach_crab/crawler": true,
@@ -66,7 +66,7 @@
       "origins:more_exhaustion": true
     },
     "grounded_origins:penguin": {
-      "enabled": true,
+      "enabled": false,
       "grounded_origins:penguin/happy_feet": true,
       "grounded_origins:penguin/cold_embrace": true,
       "grounded_origins:penguin/belly_sledding": true,
@@ -108,7 +108,7 @@
       "origins:arthropod": true
     },
     "origins:blazeborn": {
-      "enabled": true,
+      "enabled": false,
       "origins:fire_immunity": true,
       "origins:nether_spawn": true,
       "origins:burning_wrath": true,
@@ -218,7 +218,7 @@
       "origins-plus-plus:demi-god/raw_meat_buff": true
     },
     "origins-plus-plus:wizard": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_shield": true,
       "origins-plus-plus:wizard/ball": true,
       "origins-plus-plus:wizard/broom": true,
@@ -243,7 +243,7 @@
       "origins-plus-plus:wizard/why": true
     },
     "origins-plus-plus:ravager": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:ravager/attributes": true,
       "origins-plus-plus:ravager/axe_strength": true,
       "origins-plus-plus:ravager/bad_omen_on_death": true,
@@ -296,7 +296,7 @@
       "origins-plus-plus:gaia/thorned_punch": true
     },
     "origins-plus-plus:technomancer": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_shield": true,
       "origins:water_vulnerability": true,
       "origins-plus-plus:technomancer/blockade": true,
@@ -374,7 +374,7 @@
       "origins-plus-plus:voidling/voidling_form": true
     },
     "origins-plus-plus:devine_architect": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:devine-architect/charge": true,
       "origins-plus-plus:devine-architect/distrust": true,
       "origins-plus-plus:devine-architect/end_recipes": true,
@@ -389,7 +389,7 @@
       "origins-plus-plus:devine-architect/unnatural_regeneration": true
     },
     "origins-plus-plus:raptus": {
-      "enabled": true,
+      "enabled": false,
       "origins:tailwind": true,
       "origins:fall_immunity": true,
       "origins:carnivore": true,
@@ -401,7 +401,7 @@
       "origins-plus-plus:raptus/smaller_body": true
     },
     "origins-plus-plus:wailing_one": {
-      "enabled": true,
+      "enabled": false,
       "origins:ender_particles": true,
       "origins:burn_in_daylight": true,
       "origins:water_vulnerability": true,
@@ -470,7 +470,7 @@
       "origins-plus-plus:blazian/slow_fall_clear": true
     },
     "origins-plus-plus:alien_axolotl": {
-      "enabled": true,
+      "enabled": false,
       "origins:more_kinetic_damage": true,
       "origins-plus-plus:alien-axolotl/a_reminder": true,
       "origins-plus-plus:alien-axolotl/adapted_oceaner": true,
@@ -562,7 +562,7 @@
       "origins-plus-plus:panoptican/toggle": true
     },
     "origins-plus-plus:rift_mage": {
-      "enabled": true,
+      "enabled": false,
       "origins:fall_immunity": true,
       "origins-plus-plus:rift-mage/aurophilia": true,
       "origins-plus-plus:rift-mage/city_memory": true,
@@ -578,7 +578,7 @@
       "origins-plus-plus:rift-mage/water_hater": true
     },
     "origins-plus-plus:drakonwither": {
-      "enabled": true,
+      "enabled": false,
       "origins:carnivore": true,
       "origins:launch_into_air": true,
       "origins:elytra": true,
@@ -588,7 +588,7 @@
       "origins-plus-plus:drakonwither/wither_skull": true
     },
     "origins-plus-plus:chimaera": {
-      "enabled": true,
+      "enabled": false,
       "origins:climbing": true,
       "origins-plus-plus:chimaera/aggression": true,
       "origins-plus-plus:chimaera/anoxic": true,
@@ -743,7 +743,7 @@
       "origins-plus-plus:ryu/winged": true
     },
     "origins-plus-plus:vishaichian": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_cobweb_slowdown": true,
       "origins:fall_immunity": true,
       "origins-plus-plus:vishaichian/chicken_status_clear": true,
@@ -758,7 +758,7 @@
       "origins-plus-plus:vishaichian/upgrade/upgrade_strength": true
     },
     "origins-plus-plus:triangulon": {
-      "enabled": true,
+      "enabled": false,
       "origins:ender_particles": true,
       "origins:fragile": true,
       "origins:fall_immunity": true,
@@ -787,7 +787,7 @@
       "origins-plus-plus:pixie/speed": true
     },
     "origins-plus-plus:dark_mage": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:dark-mage/absorption": true,
       "origins-plus-plus:dark-mage/damage": true,
       "origins-plus-plus:dark-mage/darkness": true,
@@ -815,7 +815,7 @@
       "origins-plus-plus:dark-mage/zoglin": true
     },
     "origins-plus-plus:end_mage": {
-      "enabled": true,
+      "enabled": false,
       "origins:pumpkin_hate": true,
       "origins:water_vulnerability": true,
       "origins-plus-plus:end-mage/end_rage": true,
@@ -833,7 +833,7 @@
       "origins-plus-plus:end-mage/waypoint": true
     },
     "origins-plus-plus:ebon_wing": {
-      "enabled": true,
+      "enabled": false,
       "origins:water_vulnerability": true,
       "origins:carnivore": true,
       "origins:more_exhaustion": true,
@@ -928,7 +928,7 @@
       "origins-plus-plus:half-wither/wither_skull": true
     },
     "origins-plus-plus:voidling/voidborne": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_shield": true,
       "origins-plus-plus:voidling/brittle_bones": true,
       "origins-plus-plus:voidling/dive_attack": true,
@@ -966,7 +966,7 @@
       "origins-plus-plus:sporeling/updraft": true
     },
     "origins-plus-plus:witch_of_ink": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:witch-of-ink/art_affinity": true,
       "origins-plus-plus:witch-of-ink/artistry": true,
       "origins-plus-plus:witch-of-ink/aura": true,
@@ -992,7 +992,7 @@
       "origins-plus-plus:boarling/tough": true
     },
     "origins-plus-plus:insect": {
-      "enabled": true,
+      "enabled": false,
       "origins:climbing": true,
       "origins:fall_immunity": true,
       "origins-plus-plus:insect/ankle_bite": true,
@@ -1039,7 +1039,7 @@
       "origins-plus-plus:spectre/weakened": true
     },
     "origins-plus-plus:anomaly": {
-      "enabled": true,
+      "enabled": false,
       "origins:fall_immunity": true,
       "origins-plus-plus:anomaly/blinding_light": true,
       "origins-plus-plus:anomaly/eternity": true,
@@ -1102,7 +1102,7 @@
       "origins-plus-plus:goolien/unwieldy": true
     },
     "origins-plus-plus:shifter": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:shifter/shift_bar": true,
       "origins-plus-plus:shifter/no_elytra": true,
       "origins-plus-plus:shifter/shift_arachnid": true,
@@ -1186,7 +1186,7 @@
       "origins-plus-plus:malfunction/random_teleport": true
     },
     "origins-plus-plus:wandering_spirit": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:wandering-spirit/damage_glitch": true,
       "origins-plus-plus:wandering-spirit/fire": true,
       "origins-plus-plus:wandering-spirit/glasses": true,
@@ -1215,7 +1215,7 @@
       "origins-plus-plus:mountain-goat/tough": true
     },
     "origins-plus-plus:calamitous_rogue": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:calamitous-rogue/assassin": true,
       "origins-plus-plus:calamitous-rogue/bad_trade": true,
       "origins-plus-plus:calamitous-rogue/dps": true,
@@ -1228,7 +1228,7 @@
       "origins-plus-plus:calamitous-rogue/traceless": true
     },
     "origins-plus-plus:zero_aizawa": {
-      "enabled": true,
+      "enabled": false,
       "origins:throw_ender_pearl": true,
       "origins-plus-plus:zero-aizawa/acrobatics": true,
       "origins-plus-plus:zero-aizawa/heliophobia": true,
@@ -1263,7 +1263,7 @@
       "origins-plus-plus:iceling/water": true
     },
     "origins-plus-plus:part_robot": {
-      "enabled": true,
+      "enabled": false,
       "origins:strong_arms": true,
       "origins:strong_arms_break_speed": true,
       "origins:water_vulnerability": true,
@@ -1282,7 +1282,7 @@
       "origins-plus-plus:part-robot/water_breather": true
     },
     "origins-plus-plus:enigma": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:enigma/clone": true,
       "origins-plus-plus:enigma/behind_you": true,
       "origins-plus-plus:enigma/hated": true,
@@ -1305,7 +1305,7 @@
       "origins-plus-plus:illusioner/villager_hate": true
     },
     "origins-plus-plus:sprinter": {
-      "enabled": true,
+      "enabled": false,
       "origins:cat_vision": true,
       "origins:carnivore": true,
       "origins-plus-plus:sprinter/adrenaline_boost": true,
@@ -1377,7 +1377,7 @@
       "origins-plus-plus:jellyfish/water_vision": true
     },
     "origins-plus-plus:wanderer": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:wanderer/bag": true,
       "origins-plus-plus:wanderer/cross": true,
       "origins-plus-plus:wanderer/healing_warmth": true,
@@ -1422,7 +1422,7 @@
       "origins-plus-plus:flea/small_stomach": true
     },
     "origins-plus-plus:felvaxian": {
-      "enabled": true,
+      "enabled": false,
       "origins:nine_lives": true,
       "origins:no_shield": true,
       "origins:fall_immunity": true,
@@ -1492,7 +1492,7 @@
       "origins-plus-plus:earth-spirit/spirit_vision": true
     },
     "origins-plus-plus:hero_of_the_wild": {
-      "enabled": true,
+      "enabled": false,
       "origins:elytra": true,
       "origins:climbing": true,
       "origins-plus-plus:hero-of-the-wild/energy_wave": true,
@@ -1569,7 +1569,7 @@
       "origins-plus-plus:lunar-path/wither_immunity": true
     },
     "origins-plus-plus:artificial_construct": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:artificial-construct/battery": true,
       "origins-plus-plus:artificial-construct/battery_resource": true,
       "origins-plus-plus:artificial-construct/dispenser": true,
@@ -1594,7 +1594,7 @@
       "origins-plus-plus:stargazer/sunburn": true
     },
     "origins-plus-plus:void_samurai": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:void-samurai/armor": true,
       "origins-plus-plus:void-samurai/channel": true,
       "origins-plus-plus:void-samurai/charge": true,
@@ -1637,7 +1637,7 @@
       "origins-plus-plus:marshmallow/tiny": true
     },
     "origins-plus-plus:warper": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:warper/ender_chest": true,
       "origins-plus-plus:warper/fall_break": true,
       "origins-plus-plus:warper/food": true,
@@ -1716,7 +1716,7 @@
       "origins-plus-plus:ghast/tall": true
     },
     "origins-plus-plus:reign_farmer": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_shield": true,
       "origins:vegetarian": true,
       "origins-plus-plus:reign-farmer/lightly_armored": true,
@@ -1739,7 +1739,7 @@
       "origins-plus-plus:hellforged/water_vulnerability": true
     },
     "origins-plus-plus:war_god": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:war-god/axe_god": true,
       "origins-plus-plus:war-god/born_in_fire": true,
       "origins-plus-plus:war-god/hungry": true,
@@ -1771,7 +1771,7 @@
       "origins-plus-plus:bird/tweet": true
     },
     "origins-plus-plus:child_of_cthulhu": {
-      "enabled": true,
+      "enabled": false,
       "origins:elytra": true,
       "origins-plus-plus:child-of-cthulhu/camouflage": true,
       "origins-plus-plus:child-of-cthulhu/exhaust": true,
@@ -1794,7 +1794,7 @@
       "origins-plus-plus:mouse/yoink": true
     },
     "origins-plus-plus:blob": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_shield": true,
       "origins-plus-plus:blob/amethyst_eater": true,
       "origins-plus-plus:blob/blob_creature": true,
@@ -1830,7 +1830,7 @@
       "origins-plus-plus:frog/water_breathing": true
     },
     "origins-plus-plus:automaton": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:automaton/aging": true,
       "origins-plus-plus:automaton/attack": true,
       "origins-plus-plus:automaton/cold_biome": true,
@@ -1890,7 +1890,7 @@
       "origins-plus-plus:ice-porcupine/vanish": true
     },
     "origins-plus-plus:bedrockean": {
-      "enabled": true,
+      "enabled": false,
       "origins:fall_immunity": true,
       "origins:fire_immunity": true,
       "origins:natural_armor": true,
@@ -1933,7 +1933,7 @@
       "origins-plus-plus:bedrockean/weakness": true
     },
     "origins-plus-plus:cobra": {
-      "enabled": true,
+      "enabled": false,
       "origins:carnivore": true,
       "origins:nine_lives": true,
       "origins:no_shield": true,
@@ -1949,7 +1949,7 @@
       "origins-plus-plus:cobra/strength_in_nether": true
     },
     "origins-plus-plus:emblazing_warrior": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:emblazing-warrior/blind": true,
       "origins-plus-plus:emblazing-warrior/burning_will": true,
       "origins-plus-plus:emblazing-warrior/cross": true,
@@ -2004,7 +2004,7 @@
       "origins-plus-plus:gnoll/rage": true
     },
     "origins-plus-plus:warden": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_shield": true,
       "origins-plus-plus:warden/blind": true,
       "origins-plus-plus:warden/echolocation": true,
@@ -2024,7 +2024,7 @@
       "origins-plus-plus:corrupted-wither/wieldy": true
     },
     "origins-plus-plus:craftsman": {
-      "enabled": true,
+      "enabled": false,
       "origins-plus-plus:craftsman/axe": true,
       "origins-plus-plus:craftsman/crafting": true,
       "origins-plus-plus:craftsman/fire": true,
@@ -2051,7 +2051,7 @@
       "origins-plus-plus:moth/soul_torch_affinity": true
     },
     "origins-plus-plus:broodmother": {
-      "enabled": true,
+      "enabled": false,
       "origins:no_shield": true,
       "origins:master_of_webs": true,
       "origins:no_cobweb_slowdown": true,
