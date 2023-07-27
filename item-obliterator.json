@@ -1,8 +1,8 @@
 {
   "blacklisted_items": [
     "//Items here will be unusable completely",
-    "skylorlib:golden_seeds_item","nethersdelight:iron_machete","nethersdelight:golden_machete","nethersdelight:diamond_machete","nethersdelight:netherite_machete"
-  ]
+    "skylorlib:golden_seeds_item"
+  ],
   "only_disable_interactions": [
     "//Items here will not be able to be right-clicked (Interact)",
     "examplemod:example_item"
