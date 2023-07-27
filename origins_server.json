@@ -1470,7 +1470,7 @@
       "origins-plus-plus:soul-seer/transparent": true
     },
     "origins-plus-plus:mothling": {
-      "enabled": true,
+      "enabled": false,
       "origins:fragile": true,
       "origins:elytra": true,
       "origins-plus-plus:mothling/boost": true,
@@ -2033,7 +2033,7 @@
       "origins-plus-plus:craftsman/village": true
     },
     "origins-plus-plus:moth": {
-      "enabled": true,
+      "enabled": false,
       "origins:climbing": true,
       "origins:nine_lives": true,
       "origins:elytra": true,
