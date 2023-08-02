@@ -1,0 +1,16 @@
+{
+  "chestsHaveLoot": true,
+  "chestsHaveRelicChance": 10,
+  "chestsHaveLesserOrbChance": 2,
+  "chestsHaveGreaterOrbChance": 1,
+  "chestsHaveTomeChance": 1,
+  "dropsOnlyFromPlayerKills": true,
+  "dragonDropsStone": true,
+  "mobsDropLootChance": 5,
+  "mobDropIsRelicChance": 20,
+  "mobDropIsPotionChance": 30,
+  "mobDropIsLesserOrbChance": 2,
+  "mobDropIsGreaterOrbChance": 1,
+  "mobDropIsTomeChance": 3,
+  "mobDropBlacklist": [minecraft:blaze,minecraft:skeleton,minecraft:zombie]
+}

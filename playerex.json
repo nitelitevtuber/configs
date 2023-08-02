@@ -1,9 +1,9 @@
 {
-  "resetOnDeath": 100,
+  "resetOnDeath": 50,
   "disableAttributesGui": false,
   "showLevelNameplates": true,
   "skillPointsPerLevelUp": 1,
-  "levelFormula": "stairs(x,0.2,2.4,17,10,25)",
+  "levelFormula": "x-x+30",
   "restorativeForceTicks": 600,
   "restorativeForceMultiplier": 110,
   "expNegationFactor": 95,

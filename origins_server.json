@@ -1414,7 +1414,7 @@
       "origins-plus-plus:flea/disable_regen": true,
       "origins-plus-plus:flea/diseased_bite": true,
       "origins-plus-plus:flea/inch_tall": true,
-      "origins-plus-plus:flea/jockey": true,
+      "origins-plus-plus:flea/jockey": false,
       "origins-plus-plus:flea/jump": true,
       "origins-plus-plus:flea/nimble": true,
       "origins-plus-plus:flea/regen": true,
